@@ -1,0 +1,16 @@
+textarea {
+  display: block;
+  height: 20vh;
+  width: 40rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.625rem;
+  margin-left: 1rem;
+  background-color: hsl(123, 74%, 20%);
+  color: aliceblue;
+  border-radius: 10px;
+}
