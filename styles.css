@@ -12,6 +12,10 @@
   --font-color-dk: #cac9c9;
 }
 
+body{
+  background-color: beige;
+}
+
 .header {
   background-color: var(--primary-color-lg);
   margin: 0.5rem;
@@ -37,6 +41,7 @@ textarea {
   width: 40rem;
   margin: 2.5rem 1rem;
   padding: 1rem;
+  background-color: var(--font-color-lg);
 }
 
 .output__text {
