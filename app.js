@@ -14,10 +14,10 @@ function handleClick() {
 
   //processinng input
   fetch(getUrl(input))
-    .then((res) => res.json)
-    .then((json) => {
-      const translatedText = json;
-      /*outputText.innerText*/ console.log(translatedText); //display output
+    .then((res) => res.json())
+    .then(json => {
+      const translatedText = json.contents.translated;
+      outputText.innerText = translatedText;
     });
 }
 
