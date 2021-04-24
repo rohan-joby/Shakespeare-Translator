@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'MedievalSharp', cursive;
+  font-family: "MedievalSharp", cursive;
 }
 
 :root {
   --primary-color-dk: #075511;
   --primary-color-lg: #00a719;
   --font-color-lg: #f0f8ff;
+  --font-color-dk: #cac9c9;
 }
 
 .header {
@@ -23,7 +24,7 @@
   color: var(--font-color-lg);
 }
 
-.container{
+.container {
   display: block;
   max-width: 70vw;
   margin: 0 auto;
@@ -37,7 +38,7 @@ textarea {
   padding: 1rem;
 }
 
-.output__text{
+.output__text {
   margin: 5rem 0;
 }
 
@@ -48,4 +49,16 @@ textarea {
   background-color: var(--primary-color-dk);
   color: var(--font-color-lg);
   border-radius: 10px;
+}
+
+footer {
+  background-color: var(--primary-color-lg);
+  padding: 4rem 10rem 4rem 10rem;
+}
+
+.footer__text {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  word-spacing: 0.17rem;
+  color: var(--font-color-dk);
 }
