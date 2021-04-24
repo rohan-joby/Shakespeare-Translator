@@ -53,7 +53,8 @@ textarea {
 
 footer {
   background-color: var(--primary-color-lg);
-  padding: 4rem 10rem 4rem 10rem;
+  padding: 4rem 10rem 0.5rem 10rem;
+  cursor: default;
 }
 
 .footer__text {
@@ -61,4 +62,11 @@ footer {
   line-height: 1.4rem;
   word-spacing: 0.17rem;
   color: var(--font-color-dk);
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--font-color-lg);
+  margin: 3rem 2rem 1rem 2rem;
 }
