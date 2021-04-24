@@ -31,10 +31,11 @@
 }
 
 textarea {
+  font-size: 1.2rem;
   display: block;
   height: 20vh;
   width: 40rem;
-  margin: 1rem;
+  margin: 2.5rem 1rem;
   padding: 1rem;
 }
 
